@@ -84,7 +84,6 @@ public class Ex08 {
 		System.out.println("n2 : " + n2);
 		
 		System.out.println("==================");
-		
 		int a = 5, b = 6, c = 10, d;
 		d = ++a * b--;
 		System.out.println(a + "," + b + "," + d);
@@ -93,6 +92,13 @@ public class Ex08 {
 		System.out.println(a + "," + b + "," + c + "," + d);
 		// 6 5 36
 		// 7 4 11 12
+		
+		System.out.println("==================");
+		n1 = 20;
+		n2 = 10;
+		String result;
+		result = (n1>n2) ? "창인경우" : "거짓인경우";
+		System.out.println(result);
 	}
 }
 
